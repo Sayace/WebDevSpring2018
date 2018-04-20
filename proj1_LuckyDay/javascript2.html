@@ -1,0 +1,115 @@
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Guess the Number</title>
+
+    <style type="text/css">
+			body{
+				background-image: url("3ddie.jpeg");
+				background-repeat: no-repeat;
+    		background-size: cover;
+				text-align: center;
+				color: white;
+				font-family: courier;
+			}
+			#main{
+				width:60%;
+				margin: auto;
+				margin-top: 1%;
+			}
+			h1{
+				font-size: 300%;
+				margin-bottom: 7px;
+			}
+			.parts{
+				background: rgba(255,0,0, 0.5);
+				padding: 2%;
+			}
+			#rules{
+				margin-bottom: 10px;
+			}
+			#money{
+				margin-bottom: 10px;
+			}
+			#game{
+				margin-bottom: 10px;
+				height: 30%;
+				padding-top: 30px;
+			}
+			#left{
+				float:left;
+				padding-left: 10%;
+			}
+			#right{
+				float: right;
+				padding-right: 15%;
+			}
+			#even{
+				width: 37%;
+				display: inline;
+			}
+			#odd{
+				width: 37%;
+				display: inline;
+			}
+			#again{
+				margin-top: 0px;
+			}
+			.button{
+				color: red;
+				background-color: white;
+				border-radius: 10px;
+				padding: 5px;
+				font-size: 15px;
+			}
+			.button:hover{
+        background-color: grey;
+				color: white;
+      }
+			.clear {
+			  clear: both;
+			}
+			.hidden{
+				display: none;
+			}
+			img{
+				margin-bottom: 25px;
+			}
+    </style>
+
+  </head>
+
+  <body>
+		<div id="main">
+			<h1>GUESS THE NUMBER!</h1>
+
+			<div class="parts" id="rules">Guess the Number is a game of chance that involves absolutely no skill.
+			In this game the computer will roll a 6 sided die. Your job is to predict whether an EVEN
+			or an ODD number will rolled. Each guess costs $10, and you start the game with $50. If you guess
+			 incorrectly  you will lose your $10 bet, but if you guess correctly you will win $10. The game
+			  ends when you run out of money, or when you choose to leave this webpage!
+			</p>
+		</div>
+
+			<p class="parts" id="money"></p>
+
+			<div class="parts" id="game">
+				<div id="left">
+					<p id="result">Game Result</p>
+				</div>
+				<div id="right">
+					<img id="die" src="dice-unknown.png">
+					<p class="button hidden" id="again"><strong>PLAY AGAIN</strong></p>
+					<div class="clear"></div>
+					<p class="button" id="even"><strong>EVEN</strong></p>
+					<p class="button" id="odd"><strong>ODD</strong></p>
+			</div>
+			<div class="clear"></div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="assignment3.js"></script>
+
+  </body>
+
+</html>
