@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Web Development 2018</title>
+
+    <style type="text/css">
+      body{
+        margin: 0px;
+        font-family: Arial Black;
+      }
+      #header{
+        background-color: midnightblue;
+        color: moccasin;
+        font-size: 300%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 13px;
+        padding-bottom: 20px;
+        position:relative;
+        text-align: center;
+				height: 15%;
+      }
+
+			#middle_background{
+			background-color: moccasin;
+			}
+
+      #middle{
+        width: 80%;
+				height: 80%;
+        margin: auto;
+        position:relative;
+				color: midnightblue;
+
+      }
+      .button{
+        box-sizing: border-box;
+        float:left;
+      }
+      .button:hover{
+        background-color: #75C2B0;
+				color: moccasin;
+      }
+      .button p{
+        text-align: center;
+      }
+      .button img{
+        width: 60%;
+				margin: auto;
+				padding-left: 50px;
+				padding-top: 15px;
+      }
+
+      #footer{
+				height: 5%;
+        clear: both;
+        background-color: midnightblue;
+				padding-top: 15px;
+				padding-bottom: 15px;
+        width: 100%;
+        color: moccasin;
+        text-align: center;
+        bottom:0;
+      }
+
+      @media screen and (min-width:961px){
+        .button{
+          width:25%;
+        }
+      }
+      @media screen and (min-width:481px) and (max-width: 960px){
+				#header{
+					font-size: 200%;
+				}
+        .button{
+          width:50%;
+        }
+      }
+      @media screen and (max-width:480px){
+				#header{
+					font-size: 100%;
+				}
+        .button{
+          width:100%;
+        }
+      }
+    </style>
+
+	</head>
+	<body>
+    <div id="header">
+		  Web Development 2018
+    </div>
+
+		<div id="middle_background">
+    <div id="middle">
+      <div class="button">
+        <a href="aboutme.html"><img id ="about" src="images/Glasses.png"></a>
+        <p>About Me</p>
+      </div>
+
+      <div class="button">
+        <a href="Assignment2/javascript1.html"><img src="images/Computer-Icon.png"></a>
+        <p>JavaScript 1</p>
+      </div>
+
+      <div class="button">
+        <a href="Assignment3/javascript2.html"><img src="images/Computer-Icon.png"></a>
+        <p>JavaScript 2</p>
+      </div>
+
+      <div class="button">
+        <a href="Assignment4/javascript3.html"><img src="images/Computer-Icon.png"></a>
+        <p>JavaScript 3</p>
+      </div>
+
+      <div class="button">
+        <a href="Assignment5/jquery.html"><img src="images/Computer-Icon.png"></a>
+        <p>JQuery</p>
+      </div>
+
+      <div class="button">
+        <a href="Assignment6/index.php"><img src="images/Computer-Icon.png"></a>
+        <p>PHP 1</p>
+      </div>
+
+      <div class="button">
+        <img src="images/Computer-Icon.png">
+        <p>PHP 2</p>
+      </div>
+
+      <div class="button">
+        <img src="images/Computer-Icon.png">
+        <p>AJAX</p>
+      </div>
+
+			<br style="clear: both;">
+    </div>
+	</div>
+
+    <div id="footer">&copy 2018 Alice Han</div>
+	</body>
+</html>
